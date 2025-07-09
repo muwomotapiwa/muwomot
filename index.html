@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GTQM2SFDRW"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GTQM2SFDRW');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Professional portfolio of Tapiwa Mathew Muwomo, Salesforce Marketing Cloud Specialist">
+<title>TapiwaMathewMuwomo-Portfolio - v2</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.jpeg">
+<link rel="icon" type="image/jpeg" sizes="32x32" href="assets/favicon-32x32.jpeg">
+<link rel="icon" type="image/jpeg" sizes="16x16" href="assets/favicon-16x16.jpeg">
+<link rel="icon" type="image/jpeg" sizes="192x192" href="assets/android-chrome-192x192.jpeg">
+<link rel="icon" type="image/jpeg" sizes="512x512" href="assets/android-chrome-512x512.jpeg">
+<link rel="shortcut icon" href="assets/favicon.ico">
+<link rel="manifest" href="assets/site.webmanifest">
+</head>
+<body data-theme="dark">
+<div class="background-grid"></div>
+
+<!-- Day/Night Mode Toggle -->
+<div class="theme-toggle-wrapper">
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+<i class="fas fa-sun sun-icon"></i>
+<i class="fas fa-moon moon-icon"></i>
+</button>
+</div>
+
+<!-- Music Player -->
+<div class="music-player-wrapper">
+<div class="music-player">
+<div class="track-title">🎵 Snowfall & You Relax</div>
+<div class="player-controls">
+<button class="control-button" id="prevButton">⏮</button>
+<button class="play-button" id="playButton">▶</button>
+<button class="control-button" id="nextButton">⏭</button>
+</div>
+<div class="progress-container" id="progressContainer">
+<div class="progress-bar" id="progressBar"></div>
+</div>
+<div class="time-display">
+<span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+</div>
+</div>
+<p class="music-disclaimer">Let the music guide your scroll — full credit to the original artist...Enjoy! 🎶</p>
+</div>
+
+<nav class="main-nav">
+<div class="nav-brand">Tapiwa M. Muwomo</div>
+<ul class="nav-links">
+<li><a href="#summarySection" class="scroll-link">Summary</a></li>
+<li><a href="#skillsSection" class="scroll-link">Skills</a></li>
+<li><a href="#achievementsSection" class="scroll-link">Achievements</a></li>
+<li><a href="#experienceSection" class="scroll-link">Experience</a></li>
+<li><a href="#educationSection" class="scroll-link">Education</a></li>
+<li><a href="#certificationsSection" class="scroll-link">Certifications</a></li>
+<li><a href="#portfolioSection" class="scroll-link">Portfolio</a></li>
+</ul>
+<div class="nav-toggle" id="navToggle">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</nav>
+
+<div class="container">
+<div class="salesforce-banner" data-aos="fade-down">
+<img src="https://af6815798a.imgdist.com/pub/bfra/knkjywkm/ffv/jwf/rff/cert_program_rgb.png" alt="Salesforce Certified Professional" loading="lazy">
+</div>
+
+<header class="hero-section">
+<div class="hero-content">
+<div class="profile-photo-wrapper" data-aos="zoom-in" data-aos-delay="200">
+<img src="https://af6815798a.imgdist.com/pub/bfra/knkjywkm/b3r/yr0/p9i/MathewImage.png" alt="Tapiwa Mathew Muwomo" class="profile-photo">
+<div class="photo-glow"></div>
+</div>
+<div class="hero-text" data-aos="fade-left" data-aos-delay="400">
+<h1>TAPIWA MATHEW MUWOMO</h1>
+<div class="typewriter-container">
+<span id="typewriter-text" class="typewriter-title"></span>
+<span class="typewriter-cursor">|</span>
+</div>
+<p class="hero-tagline">Designing & delivering scalable customer engagement solutions with Salesforce expertise.</p>
+<div class="contact-info">
+<a href="mailto:muwomotapiwa@gmail.com" class="contact-btn" onclick="gtag('event', 'click_email', { event_category: 'Contact', event_label: 'Clicked Email Link', value: 1})"><i class="fas fa-envelope"></i> Email Me</a>
+<a href="https://linkedin.com/in/mathew-muwomo" target="_blank" rel="noopener noreferrer" class="contact-btn" onclick="gtag('event', 'click_linkedin', { event_category: 'Contact', event_label: 'Clicked LinkedIn Profile', value: 1 })"><i class="fab fa-linkedin"></i> LinkedIn</a>
+<a href="https://www.salesforce.com/trailblazer/mathewmuwomo" target="_blank" rel="noopener noreferrer" class="contact-btn" onclick="gtag('event', 'click_trailblazer', { event_category: 'Contact', event_label: 'Clicked Salesforce Trailblazer Profile', value: 1 })"><i class="fab fa-salesforce"></i> Trailblazer</a>
+</div>
+</div>
+</div>
+<button class="scroll-down-btn" onclick="document.getElementById('summarySection').scrollIntoView({ behavior: 'smooth' })">
+<i class="fas fa-chevron-down"></i>
+</button>
+</header>
+
+<section class="section-card" id="summarySection" data-aos="fade-up">
+<h2>PROFESSIONAL SUMMARY</h2>
+<p>Certified Salesforce Marketing Cloud Developer and Full-Stack Salesforce Professional with 5 years of experience designing and delivering scalable customer engagement solutions. Holds 9 Salesforce certifications including Marketing Cloud Developer, Email Specialist, Account Engagement (Pardot), Platform App Builder, Platform Developer I, Data Cloud Consultant, OmniStudio Consultant, Service Cloud Consultant, and Administrator.</p>
+<p>Specializes in end-to-end Marketing Cloud development from lead capture and segmentation to automated journeys, preference centers and integrations with Salesforce CRM, DocuSign, Adobe Sign and external platforms via REST/SOAP APIs. Built dynamic email templates, interactive CloudPages and data-driven automations that improved campaign performance by up to 40%.</p>
+<p>Equally proficient as a Salesforce Developer with hands-on expertise in Apex, Lightning Web Components (LWC), Process Builder and Flow. Designed and implemented custom business logic, integrated third-party systems using REST/SOAP APIs and developed reusable UI components for Salesforce Experience Cloud portals. Experienced in building scalable automation workflows, approval processes, and secure API integrations while adhering to governor limits and best practices.</p>
+<p>Skilled in AMPscript, SSJS, SQL, Journey Builder, Automation Studio and deliverability best practices. Adept at translating business requirements into technical solutions while ensuring compliance with GDPR, and cross-cloud interoperability standards.</p>
+</section>
+
+<section id="skillsSection" class="section-card" data-aos="fade-up" data-aos-delay="100">
+<h2>CORE SKILLS</h2>
+<div class="skills-grid">
+<div class="skill-group">
+<h3><i class="fas fa-cloud"></i> Marketing Cloud Development</h3>
+<div class="skill-tags">
+<span class="skill-tag">Journey Builder</span><span class="skill-tag">Email Studio</span><span class="skill-tag">AMPscript</span><span class="skill-tag">SSJS</span><span class="skill-tag">CloudPages</span><span class="skill-tag">Data Extensions</span><span class="skill-tag">SQL Segmentation</span><span class="skill-tag">Contact Builder</span><span class="skill-tag">Preference Center</span><span class="skill-tag">Automation Studio</span><span class="skill-tag">Deliverability</span><span class="skill-tag">API Integrations</span>
+</div>
+</div>
+<div class="skill-group">
+<h3><i class="fas fa-cogs"></i> Salesforce Development</h3>
+<div class="skill-tags">
+<span class="skill-tag">Apex Triggers</span><span class="skill-tag">LWC</span><span class="skill-tag">Process Builder</span><span class="skill-tag">Flow</span><span class="skill-tag">Platform App Builder</span><span class="skill-tag">Validation Rules</span><span class="skill-tag">Formula Fields</span><span class="skill-tag">Visualforce</span><span class="skill-tag">Security Model</span><span class="skill-tag">DX Deployments</span>
+</div>
+</div>
+<div class="skill-group">
+<h3><i class="fas fa-project-diagram"></i> CRM & Integrations</h3>
+<div class="skill-tags">
+<span class="skill-tag">Sales Cloud</span><span class="skill-tag">Service Cloud</span><span class="skill-tag">Pardot Connector</span><span class="skill-tag">DocuSign API</span><span class="skill-tag">Adobe Sign API</span><span class="skill-tag">REST/SOAP API</span><span class="skill-tag">OAuth 2.0</span><span class="skill-tag">CPQ</span><span class="skill-tag">FSL</span><span class="skill-tag">OmniStudio</span>
+</div>
+</div>
+<div class="skill-group">
+<h3><i class="fas fa-award"></i> Tools & Certifications</h3>
+<div class="skill-tags">
+<span class="skill-tag">MC Developer</span><span class="skill-tag">MC Email Specialist</span><span class="skill-tag">Pardot Specialist</span><span class="skill-tag">Platform Dev I</span><span class="skill-tag">Admin</span><span class="skill-tag">Data Cloud</span><span class="skill-tag">OmniStudio Consultant</span><span class="skill-tag">Service Cloud</span><span class="skill-tag">VS Code</span><span class="skill-tag">Postman</span><span class="skill-tag">Trailhead</span>
+</div>
+</div>
+</div>
+</section>
+
+<section id="achievementsSection" class="section-card" data-aos="fade-up" data-aos-delay="200">
+<h2>KEY ACHIEVEMENTS</h2>
+<div class="achievements-grid">
+<div class="achievement-item">
+<i class="fas fa-chart-line"></i>
+<h3>40% Engagement Increase</h3>
+<p>Designed personalized customer journeys in Marketing Cloud.</p>
+</div>
+<div class="achievement-item">
+<i class="fas fa-database"></i>
+<h3>25% Segmentation Accuracy</h3>
+<p>Optimized audience targeting using advanced SQL queries.</p>
+</div>
+<div class="achievement-item">
+<i class="fas fa-bell-slash"></i>
+<h3>15% Unsubscribe Reduction</h3>
+<p>Deployed a dynamic preference center with CloudPages & AMPscript.</p>
+</div>
+<div class="achievement-item">
+<i class="fas fa-rocket"></i>
+<h3>30% Campaign Efficiency</h3>
+<p>Integrated Marketing Cloud with CRM via REST/SOAP APIs.</p>
+</div>
+</div>
+</section>
+
+<section id="experienceSection" class="section-card" data-aos="fade-up" data-aos-delay="300">
+<h2>PROFESSIONAL EXPERIENCE</h2>
+<div class="experience-timeline">
+<div class="timeline-item">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<h3>Salesforce Marketing Cloud Developer & Admin</h3>
+<h4>Tetrad Group (2022 – Present)</h4>
+<p>Full-cycle Salesforce Marketing Cloud developer and administrator delivering scalable CRM solutions, campaign automation and system integrations for multiple enterprise programs across the UK and Africa.</p>
+<ul>
+<li>Led multi-phase Marketing Cloud implementations for global B2B clients, developing journeys, API integrations and branded email templates.</li>
+<li>Built interactive CloudPages for lead capture, gated content, surveys and consent management using AMPscript and SSJS.</li>
+<li>Integrated Marketing Cloud with Salesforce CRM and third-party systems via REST/SOAP APIs, improving data sync accuracy by 30%.</li>
+<li>Developed and deployed Lightning Web Components (LWC) for responsive Experience Cloud interfaces.</li>
+<li>Built Apex triggers and classes for business-critical automations with proper governor handling.</li>
+</ul>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<h3>Salesforce Pardot Consultant & Email Specialist Role</h3>
+<h4>Client Projects (2022 – Present)</h4>
+<p>Managed various client projects focusing on Pardot implementation and email marketing strategies.</p>
+<ul>
+<li>Implemented and configured the Pardot connector for seamless lead synchronization.</li>
+<li>Developed comprehensive B2B marketing automation strategies using Pardot Engagement Studio.</li>
+<li>Built and deployed responsive Pardot forms and landing pages for improved lead capture.</li>
+<li>Set up domain authentication and subscription preferences to ensure compliance and improve email deliverability.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section id="educationSection" class="section-card" data-aos="fade-up" data-aos-delay="400">
+<h2>EDUCATION, WORK & COMMUNITY WORK</h2>
+<div class="education-grid">
+<div class="education-item">
+<h3><i class="fas fa-graduation-cap"></i> Academic Background</h3>
+<p><strong>Bachelor of Commerce (Economics)</strong><br>Midlands State University, Zimbabwe<br><small>SAQA Equivalent: Bachelor of Technology in Economics</small></p>
+<ul>
+<li>Specialized in economic modeling and business analytics.</li>
+<li>Research focused on data-driven decision making.</li>
+</ul>
+</div>
+<div class="education-item">
+<h3><i class="fas fa-briefcase"></i> Business Consulting</h3>
+<p><strong>Business Consultant</strong><br>Parson Cross (2020–2022)</p>
+<ul>
+<li>Translated business requirements into technical CRM solutions.</li>
+<li>Optimized CRM workflows for SMB clients.</li>
+</ul>
+</div>
+<div class="education-item">
+<h3><i class="fas fa-hands-helping"></i> Community Contribution</h3>
+<p><strong>Technology Volunteer</strong><br>Local Churches & Non-Profits</p>
+<ul>
+<li>Developed and maintain 5+ responsive church websites.</li>
+<li>Provided ongoing technical support and mentorship.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="certificationsSection" class="section-card" data-aos="fade-up" data-aos-delay="500">
+<h2>CERTIFICATIONS</h2>
+<div class="certifications-grid">
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified Administrator</div>
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified Marketing Cloud Email Specialist</div>
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified Marketing Cloud Account Engagement Specialist</div>
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified Marketing Cloud Developer</div>
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified Data Cloud Consultant</div>
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified Platform Developer I</div>
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified Platform App Builder</div>
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified OmniStudio Consultant</div>
+<div class="certification-badge"><i class="fas fa-certificate"></i> Salesforce Certified Service Cloud Consultant</div>
+</div>
+</section>
+
+<section id="portfolioSection" class="section-card" data-aos="fade-up" data-aos-delay="600">
+<h2>PORTFOLIO</h2>
+<p class="portfolio-intro">Here's a selection of projects showcasing my expertise. Hover over each card for more details and click to view live projects (where available).</p>
+
+<h3>📄 CloudPages & Web Forms</h3>
+<div class="portfolio-grid">
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Customer Privacy Center</h3>
+<p>Consent and preferences CloudPage using AMPscript and triggered sends. Built for Boxplay Media.</p>
+<div class="tags"><span>AMPscript</span><span>CloudPages</span><span>Data Privacy</span></div>
+</div>
+</div>
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>CRM Audit Survey</h3>
+<p>Multi-step CloudPage survey with AMPscript, JavaScript and dynamic DE insert. Used for lead scoring.</p>
+<div class="tags"><span>AMPscript</span><span>JavaScript</span><span>Data Extensions</span></div>
+</div>
+</div>
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Donation Form (Experience Cloud)</h3>
+<p>Multi-step LWC form integrated with Opportunities and Campaigns for tracking and follow-up.</p>
+<div class="tags"><span>LWC</span><span>Experience Cloud</span><span>Salesforce CRM</span></div>
+</div>
+</div>
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Tech Thursday Microsite</h3>
+<p>AMPscript-based RSVP CloudPage with journey integration and confirmation email.</p>
+<div class="tags"><span>AMPscript</span><span>CloudPages</span><span>Journey Builder</span></div>
+</div>
+</div>
+</div>
+
+<h3>🔌 API & Backend Integration</h3>
+<div class="portfolio-grid">
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Lead Capture via REST API</h3>
+<p>Captured CloudPage form leads and pushed to Salesforce CRM using SSJS and Connected App auth.</p>
+<div class="tags"><span>SSJS</span><span>REST API</span><span>Salesforce CRM</span><span>OAuth</span></div>
+</div>
+</div>
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Customer Data Sync</h3>
+<p>Synced user data between external CRM and Salesforce Marketing Cloud via REST API.</p>
+<div class="tags"><span>REST API</span><span>Data Sync</span><span>Marketing Cloud</span></div>
+</div>
+</div>
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Download Tracking with AMPscript</h3>
+<p>Tracked asset downloads by writing entries to a DE using AMPscript on click events.</p>
+<div class="tags"><span>AMPscript</span><span>Data Extensions</span><span>Tracking</span></div>
+</div>
+</div>
+</div>
+
+<h3>🌐 Websites I Created</h3>
+<div class="portfolio-grid">
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Online CV Website (This Site)</h3>
+<p>Interactive personal portfolio showcasing certifications, achievements and work history. Includes animated badges, audio player and responsive design.</p>
+<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span></div>
+<a href="https://www.tapiwamathewmuwomo.online/" target="_blank" class="project-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Royal Crown Ministries Website</h3>
+<p>Church website with events, donations, devotionals and a membership form. Built with HTML, CSS, JS.</p>
+<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>CMS</span></div>
+<a href="https://www.royalcrownministriesinternational.co.za/" target="_blank" class="project-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>KypexTech Website</h3>
+<p>Corporate website for an IT services and consulting company, showcasing services, testimonials and contact forms.</p>
+<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Corporate</span></div>
+<a href="https://www.kypextech.co.za/" target="_blank" class="project-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+<div class="portfolio-item">
+<div class="portfolio-content">
+<h3>Stitches Designer Portfolio</h3>
+<p>Elegant portfolio site for a fashion designer featuring collections, lookbooks and client galleries.</p>
+<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Portfolio</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="main-footer">
+<p>© <span id="current-year">2024</span> Tapiwa Mathew Muwomo. All rights reserved.</p>
+<p class="footer-credits">✨ Crafted with <i class="fas fa-heart" style="color: var(--accent-red);" aria-hidden="true"></i> & Code by Tapiwa M. Muwomo</p>
+</footer>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+duration: 1000,
+once: true,
+});
+</script>
+<script src="js/script.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+const sectionsToTrack = [
+{ id: 'summarySection', event: 'view_summary' },
+{ id: 'skillsSection', event: 'view_skills' },
+{ id: 'achievementsSection', event: 'view_achievements' },
+{ id: 'experienceSection', event: 'view_experience' },
+{ id: 'educationSection', event: 'view_education' },
+{ id: 'certificationsSection', event: 'view_certifications' },
+{ id: 'portfolioSection', event: 'view_portfolio' }
+];
+
+const observer = new IntersectionObserver(function (entries) {
+entries.forEach(entry => {
+if (entry.isIntersecting && entry.target.dataset.tracked !== "true") {
+const eventName = entry.target.dataset.event;
+gtag('event', eventName, {
+event_category: 'Scroll',
+event_label: eventName + ' section viewed',
+value: 1
+});
+entry.target.dataset.tracked = "true";
+}
+});
+}, {
+threshold: 0.4
+});
+
+sectionsToTrack.forEach(section => {
+const el = document.getElementById(section.id);
+if (el) {
+el.dataset.event = section.event;
+observer.observe(el);
+}
+});
+});
+</script>
+</body>
+</html>
