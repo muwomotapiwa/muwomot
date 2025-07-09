@@ -49,12 +49,14 @@
 --accent-red: #d1242f;
 }
 
-/* --- Theme Toggle Button --- */
+/* --- Theme Toggle Button (Updated for Navigation) --- */
 .theme-toggle-wrapper {
-position: fixed;
-top: 20px;
-right: 20px;
-z-index: 1002;
+display: flex;
+align-items: center;
+}
+
+.nav-theme-toggle {
+margin-right: var(--spacing-md);
 }
 
 .theme-toggle {
@@ -68,7 +70,7 @@ align-items: center;
 justify-content: center;
 cursor: pointer;
 transition: all var(--transition-speed-normal);
-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 position: relative;
 overflow: hidden;
 }
@@ -360,11 +362,15 @@ background-color: var(--card-bg);
 border-bottom: 1px solid var(--border-color);
 padding: var(--spacing-md) var(--spacing-lg);
 display: flex;
-justify-content: space-between;
 align-items: center;
+gap: var(--spacing-md);
 z-index: 1000;
 box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 transition: background-color var(--transition-speed-normal);
+}
+
+.nav-links {
+margin-left: auto;
 }
 
 .nav-brand {
@@ -373,6 +379,7 @@ font-size: 1.8em;
 font-weight: 700;
 color: var(--accent-blue);
 text-transform: uppercase;
+flex-grow: 1;
 }
 
 .nav-links {
@@ -1038,6 +1045,10 @@ padding: var(--spacing-md);
 .main-nav .nav-links {
 gap: var(--spacing-md);
 }
+.theme-toggle {
+width: 45px;
+height: 45px;
+}
 .hero-section h1 {
 font-size: 3.2em;
 }
@@ -1050,14 +1061,6 @@ font-size: 2em;
 .section-card {
 padding: var(--spacing-lg);
 }
-.theme-toggle-wrapper {
-top: 15px;
-right: 15px;
-}
-.theme-toggle {
-width: 45px;
-height: 45px;
-}
 }
 
 @media (max-width: 768px) {
@@ -1069,21 +1072,38 @@ flex-wrap: wrap;
 padding: var(--spacing-md);
 position: static;
 box-shadow: none;
+justify-content: space-between;
 }
+
+.nav-theme-toggle {
+order: -1;
+margin-right: 0;
+}
+
 .nav-toggle {
 display: flex;
+order: 1;
 }
+
+.nav-brand {
+flex-grow: 0;
+order: 0;
+}
+
 .nav-links {
 flex-direction: column;
 width: 100%;
 display: none;
 text-align: center;
 margin-top: var(--spacing-md);
+margin-left: 0;
 background-color: var(--card-bg);
 border-radius: var(--border-radius-md);
 padding: var(--spacing-md) 0;
 border: 1px solid var(--border-color);
+order: 2;
 }
+
 .nav-links.active {
 display: flex;
 }
@@ -1169,10 +1189,6 @@ padding-left: var(--spacing-md);
 .timeline-dot {
 left: -8px;
 }
-.theme-toggle-wrapper {
-top: 10px;
-right: 10px;
-}
 .theme-toggle {
 width: 40px;
 height: 40px;
@@ -1209,18 +1225,6 @@ padding: var(--spacing-md);
 .profile-photo-wrapper {
 width: 150px;
 height: 150px;
-}
-.music-player-wrapper {
-width: 50px;
-height: 50px;
-}
-.music-player {
-width: 40px;
-height: 40px;
-}
-.music-player-wrapper:hover .music-player {
-width: 200px;
-height: 90px;
 }
 .theme-toggle {
 width: 35px;
